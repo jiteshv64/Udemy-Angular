@@ -12,6 +12,7 @@ export class AppComponent {
 
   toggleDetails() {
     this.secret = !this.secret;
-    this.log.push(this.log.length * 2);
+    // this.log.push(this.log.length * 2);
+    this.log.push(new Date());
   }
 }
