@@ -1,0 +1,2 @@
+* Optimize this app by adding UserService which manage the active and inactive users.
+* Also add a CounterService which counts the number of active to inactive and inactive to active.

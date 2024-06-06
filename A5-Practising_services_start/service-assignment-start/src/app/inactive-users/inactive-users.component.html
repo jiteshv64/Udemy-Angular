@@ -1,0 +1,11 @@
+<h3>Inactive Users</h3>
+<ul class="list-group">
+  @for (user of users; track user; let i = $index) {
+    <li class="list-group-item">
+      {{ user }} <a href="#" class="nav-link link-primary" (click)="onSetToActive(i)">Set to Active</a>
+    </li>
+  }
+</ul>
+<div class="">
+  Inactive to Active: {{ counterService.inactive }}
+</div>
